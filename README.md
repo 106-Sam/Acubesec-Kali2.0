@@ -3,28 +3,24 @@
 ### To fix Acubesec-Kali2.0 Apps not starting automatically
 
 1. clone this repo.
-
 ``` bash
 git clone https://github.com/106-Sam/Acubesec-Kali2.0.git
 ```
-
+2. Change directory to Acubesec-Kali2.0
+``` bash
+cd Acubesec-Kali2.0
+```
 3. Install `python3` required modules.
 ``` python3
 pip3 install -r requirements.txt
 ```
-
-5. Change directory to Acubesec-Kali2.0
-``` bash
-cd Acubesec-Kali2.0
-```
-6. Run `acube-startapps.py` script.
+4. Run `acube-startapps.py` script.
 ``` python3
 python3 acube
 ```
+5. Type `Y` if you are using AcubeSec OS as Virtual Machine, Otherwise type `N`.
 
-7. Type `Y` if you are using AcubeSec OS as Virtual Machine, Otherwise type `N`.
-
-8. Now restart you machine. It's done
+6. Now restart you machine. It's done
 
 
 If there are any issue contact me.
