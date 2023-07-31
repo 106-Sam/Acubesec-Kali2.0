@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 ```
 4. Run `acube-startapps.py` script.
 ``` python3
-python3 acube
+python3 acube-startapps.py
 ```
 5. Type `Y` if you are using AcubeSec OS as Virtual Machine, Otherwise type `N`.
 
