@@ -24,7 +24,7 @@ python3 acube
 
 7. Type `Y` if you are using AcubeSec OS as Virtual Machine, Otherwise type `N`.
 
-8. Now restart you machine. It done
+8. Now restart you machine. It's done
 
 
 If there are any issue contact me.
