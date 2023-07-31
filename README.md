@@ -1,6 +1,6 @@
 # Acubesec-Kali2.0
 
-### To fix Acubesec-Kali2.0 Apps not starting automatically
+### To fix Acubesec-Kali2.0 Spotify, Whatsapp, Telegram Apps not starting automatically
 
 1. clone this repo.
 ``` bash
@@ -14,7 +14,7 @@ cd Acubesec-Kali2.0
 ``` python3
 pip3 install -r requirements.txt
 ```
-4. Run `acube-startapps.py` script.
+4. Run `acube-startapps.py` script. Provide user's password if prompts.
 ``` python3
 python3 acube-startapps.py
 ```
