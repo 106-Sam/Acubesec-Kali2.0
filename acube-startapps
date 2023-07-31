@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo service snapd start
+sudo service snapd.apparmor start

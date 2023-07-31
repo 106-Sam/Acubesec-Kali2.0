@@ -1,0 +1,7 @@
+[Unit]
+Description=Run snap-apps and bluetooth at startup
+
+[Service]
+Type=oneshot
+ExecStart=/bin/acube-startapps
+TimeoutStartSec=0

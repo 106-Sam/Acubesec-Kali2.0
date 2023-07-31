@@ -1,0 +1,8 @@
+[Unit]
+Description="Run snap-apps and bluetooth after 6 minutes of boot"
+
+[Timer]
+OnBootSec=6min
+
+[Install]
+WantedBy=default.target
