@@ -9,9 +9,9 @@ def VM(ch):
     if ch == 'Y' or ch == 'Yes' or ch == 'yes':
         for i in tqdm(range(0,20), colour="#00ffff", desc="Copying files: "):
             sleep(.1)
-            cmd = "sudo cp acube-startapps /tmp/acube-startapps"
+            cmd = "sudo cp acube-startapps /bin/acube-startapps"
             os.system(cmd)
-            cmd = "sudo cp acubesec.service acubesec.timer /tmp/"
+            cmd = "sudo cp acubesec.service acubesec.timer /etc/systemd/system/"
             os.system(cmd)
 
         print("")
@@ -32,9 +32,9 @@ def VM(ch):
     elif ch == 'N' or ch == 'No' or ch == 'no':
         for i in tqdm(range(0,20),colour="#00ffff", desc="Copying files: "):
             sleep(.1)
-            cmd = "sudo cp acube-startapps.blue /tmp/acube-startapps"
+            cmd = "sudo cp acube-startapps.blue /bin/acube-startapps"
             os.system(cmd)
-            cmd = "sudo cp acubesec.service acubesec.timer /tmp/"
+            cmd = "sudo cp acubesec.service acubesec.timer /etc/systemd/system/"
             os.system(cmd)
 
         print("")
