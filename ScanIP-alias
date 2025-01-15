@@ -1,0 +1,18 @@
+#!/bin/bash
+
+#Add it to the Source file of BASH, ZSH or etc.
+
+
+scanIP() {
+        if [ -z "$1" ]; then
+
+                echo "\n"
+                echo "Usage: scanIP <IP_ADDRESS>"
+                return 1
+        fi
+        rustscan -a "$1" -r 0-65535 1> /tmp/help.txt
+        awk "/Open/ {print \$2}" /tmp/help.txt | cut -d':' -f2 > /tmp/port.txt
+        nmap $1 -p $(paste -sd "," /tmp/port.txt)
+        rm /tmp/help.txt /tmp/port.txt
+
+}
